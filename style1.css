@@ -1,0 +1,185 @@
+* {
+
+	margin: 0;
+	overflow-x: hidden;
+}
+
+.header {
+
+	width: 100vw;
+	min-height: 10vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.header p {
+
+	font-family: 'Roboto';
+	font-size: 3.5vh;
+	color: #4D4D4D;
+	margin: 0;
+	
+}
+
+.header p span {
+
+	font-family: 'Lobster';
+	color: #4D4D4D;
+}
+
+.main-content {
+
+	background-image: url('../images/waves.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 100%;
+	width: 100%;
+	min-height: 90vh;
+	display: flex;
+	align-items: center;
+}
+
+.opacity {
+
+	background-position: center;
+	min-height: 90vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	background: linear-gradient(transparent 20%, black);
+}
+
+.title {
+
+	margin: 200px;
+}
+
+.title p {
+
+	font-size: 13vh;
+	font-family: 'Roboto';
+	color: white;
+}
+
+.title p span {
+
+	font-family: 'Lobster';
+	color: white;
+}
+
+.subtitle span {
+
+	font-size: 3vh;
+	font-family: 'Roboto';
+	color: white;
+}
+
+.navigation {
+
+	display: flex;
+	align-items: center;
+	margin-top: 30px;
+	max-width: 350px;
+	height: 100px;
+	justify-content: space-between;
+}
+
+.navigation a {
+
+	text-decoration: none;
+	font-size: 15px;
+	font-family: 'Roboto';
+	color: white;
+	padding: 15px;
+	border: solid 2px white;
+	transition: 0.2s;
+}
+
+.navigation a:hover {
+
+	background: white;
+	color: #4D4D4D;
+	padding: 15px;
+	border: solid 2px white;
+	transition: 0.2s;
+}
+
+.presentation-content {
+
+	width: 100%;
+	min-height: 50vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-left: 200px;
+}
+
+.presentation-content p {
+
+	font-size: 5vh;
+	font-family: 'Lobster';
+	color: #4D4D4D;
+}
+
+.presentation-text {
+
+	margin-top: 30px;
+	max-width: 60%;
+}
+
+.presentation-text p {
+
+	font-size: 2vh;
+	font-family: 'Work Sans';
+}
+
+footer {
+
+	width: 100%;
+	height: 70px;
+	background: #4D4D4D;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Roboto';
+	color: white;
+}
+
+footer p span {
+
+	font-family: 'Lobster';
+}
+
+@media (max-width: 1048px) {
+
+	.main-content {
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.title {
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+
+	.presentation-content {
+
+		margin-left: 0;
+		width: 100%;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.presentation-content p {
+
+		text-align: justify;
+	}
+
+}

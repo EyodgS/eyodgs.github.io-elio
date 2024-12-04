@@ -1,0 +1,156 @@
+* {
+
+	margin: 0;
+	overflow-x: hidden;
+}
+
+header {
+
+	width: 100%;
+	min-height: 100px;
+	display: flex;
+	align-items: center;
+	margin: auto;
+	justify-content: space-between;
+}
+
+
+.content-name p {
+
+	font-size: 25px;
+	margin-left: 50px;
+	color: #4D4D4D;
+	font-family: 'Roboto';
+}
+
+.content-name p span {
+
+	font-family: 'Lobster';
+}
+
+.navigation {
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 250px;
+	margin-right: 50px;
+}
+
+.navigation a {
+
+	font-size: 20px;
+	color: #4D4D4D;
+	font-family: 'Roboto';
+	text-decoration: none;
+}
+
+.content-title {
+
+	min-height: 50vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #EEEEEE;
+}
+
+.content-title p {
+
+	font-size: 7vh;
+	color: #4D4D4D;
+	font-family: 'Roboto';
+}
+
+.content-title p span {
+
+	font-family: 'Lobster';
+}
+
+.content-skills {
+
+	min-height: 50vh;
+	width: 100%;
+}
+
+.skills-title {
+
+	display: flex;
+	align-items: center;
+	min-height: 20vh;
+	padding-left: 200px;
+}
+
+.skills-title p {
+
+	font-size: 5vh;
+	font-family: 'Lobster';
+	color: #4D4D4D;
+}
+
+.content {
+
+	min-height: 30vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.skills-item {
+
+	width: 100px;
+	height: 100px;
+	margin: 20px;
+}
+
+footer {
+
+	width: 100%;
+	height: 70px;
+	background: #4D4D4D;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Roboto';
+	color: white;
+}
+
+footer p span {
+
+	font-family: 'Lobster';
+}
+
+@media (max-width: 1048px) {
+
+	.skills-title {
+
+		display: flex;
+		justify-content: center;
+		padding-left: 0;
+	}
+
+	.content-title {
+
+		min-height: 70vh;
+	}
+
+	img {
+
+		width: 70px;
+		height: 70px;
+	}
+
+	.skills-item {
+
+		margin: 0;
+		justify-content: center;
+		display: flex;
+	}
+
+	.content {
+
+		flex-direction: column;
+		height: 100vh;
+	}
+}
